@@ -1,50 +1,17 @@
-AndroidIM
+ChatterBox
 =========
 
-##Android Instant Messaging Application
+This application is focused at creating an android instant messenger called “ChatterBox”. This is a chat application that allows the users to communicate with each other in different languages and also allows users to pin important messages. This application incorporates a few characteristics of the existing applications, at the same time ceases to be different from the existing applications in its features.
 
-###VIL - Very Important Link's
+This application ceases to eliminate language barriers among users. Many users may not know certain languages and can find it difficult to explicitly translate the messages before sending, “ChatterBox” provides a mechanism such that the users can implicitly translate the messages before sending using this application. The users are allowed to either chat using the default language which is available with the phone or they can use the translator to convert the default language message to another language.
 
-[V-City](http://www.v-city.at)<br/>
-[Demo-App PlayStore](https://play.google.com/store/apps/details?id=at.vcity.androidim)<br/>
-[Installation-Tutorial](https://github.com/Pirngruber/AndroidIM/wiki/Installation-Tutorial)
+This application also reduces time in searching for a particular message within the many conversations because of the pin message feature. The pin message feature allows the users to select a particular message and “pin it”, the messages that are pinned are later retrieved when the user requires, allowing easier access to the important messages. The translator and pin message can be invoked whenever necessary. This system is accessible and portable for people who primarily use smartphones for communication.  
 
+The users can login to the application with their username and password, after they have logged in they are directed to the home page. If the user is not an existing user they have to register into the application after which they can access the application homepage. Android has been used as the platform for the application to target a maximum number of users, as in, our target demographic. Users can perform one to one chat with the other users of the application. 
 
-
-
-###Features
-
-    User registration
-    User authentication
-    Adding a new friend by username
-    Approving a friend
-    Messaging with a friend in list
-    Shows online and offline users
-    Runs a background service in order to get messages even when the application is closed.
-    Uses notification area when a new message is received.
-    Quiting the application(kills the background service) 
+Therefore, this application seeks to eliminate language barriers among users, enhances communication between people and eliminates much time and effort in searching for a particular message. 
 
 
 
-###How to make it run:
 
-    WebAPI:
-        There is a folder whose name is "android-im_WEBAPI", copy all files under "android-im" folder to a folder in            
-        your web server directory, 
-        for instance android-im that can be accessed by http://192.168.7.5/android-im/ (192.168.7.5 is the IP address of 
-        computer which runs apache and mysql, 
-        use local network IP address instead of using localhost or 127.0.0.1).
-        Open the index.php and enter database connectivity parameters such as host, username, password etc. write 
-        error_reporting(0) in top of index.php
-        Create the tables in mysql database with the included android_im.sql
-        
-    Android APP:
-        set AUTHENTICATION_SERVER_ADDRESS in socketOperator, it must be the address where server folder are located,
-        for our example it is http://192.168.7.5/android-im/ (don't use localhost)
-        
-    Then run your application in Eclipse with ADT plugin.
-    it can be learned how to install Android SDK and ADT plugin.
 
-###Support:
-
-    Support now is given by Pirngruber Dominik (d.pirngruber@gmail.com)
