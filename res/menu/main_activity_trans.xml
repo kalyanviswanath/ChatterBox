@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/ivSend"
+          android:icon="@drawable/trans"
+          android:title="@string/translate"
+          android:showAsAction="ifRoom" />
+
+</menu>

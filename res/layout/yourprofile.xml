@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.createprofile.createprofile.MainActivity"
+    android:weightSum="2"
+    android:background="@color/logo_orange"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="84dp"
+        android:layout_height="77dp" >
+
+        <ImageView
+            android:id="@+id/user_photo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="Main Image"
+            android:padding="1dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/profile" />
+    </RelativeLayout>
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="0dp"
+	    android:layout_marginTop="@dimen/activity_vertical_margin"
+	    android:layout_weight="0.32" >
+        
+	    <TextView
+	        android:id="@+id/yourprofile"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginTop="15dp"
+	    android:textColor="@color/white"
+	    android:textSize="18dp" />
+       <!--   
+       <EditText 
+           android:id="@+id/profiltextbox"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:textColor="@color/white"
+            android:textCursorDrawable="@null"
+            android:paddingTop="6dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="6dp"
+            android:textSize="18sp"
+            android:editable="false"
+            android:gravity="center_vertical"/>
+       -->
+       
+       
+	</RelativeLayout>
+
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:layout_marginTop="15dp"
+	    android:text="Status: Available"
+	    android:textColor="@color/white"
+	    android:textSize="18dp" />
+
+	
+
+</LinearLayout>

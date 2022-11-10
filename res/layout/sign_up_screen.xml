@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:orientation="vertical"
+    android:padding="10dip"
+    android:background="@drawable/bg3"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    
+     <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="SIGN UP"
+            android:textSize="25dip"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+       
+    />
+    
+    <EditText android:id="@+id/userName"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:singleLine="true"
+        android:background="@drawable/edit_text"
+            android:textSize="25dp"
+            android:hint="  user name"
+            android:paddingLeft="10dp"
+        android:password="false"
+    />
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        
+    />
+    
+    <EditText android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/edit_text"
+            android:textSize="25dp"
+            android:hint=" password"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:password="true"
+    /> 
+    
+     <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        
+    />
+    
+    <EditText android:id="@+id/passwordAgain"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/edit_text"
+            android:textSize="25dp"
+            android:hint=" password again"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:password="true"
+    /> 
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        
+    />
+    
+    <EditText android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@drawable/edit_text"
+            android:textSize="25dp"
+            android:hint="  email"
+        android:singleLine="true"
+        android:paddingLeft="10dp"
+        android:password="false"
+    />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+         />
+    
+    <LinearLayout android:orientation="horizontal"
+    			  android:layout_width="fill_parent"
+    			  android:layout_height="wrap_content">
+    			  
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_dgn"
+            android:text="@string/sign_up"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+			  
+    
+	</LinearLayout>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logo_orange"
+    android:orientation="vertical" >
+
+   
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <EditText
+            android:id="@+id/uptext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:ems="10"
+            android:hint="update status here"
+            android:inputType="textCapWords"
+            android:padding="10dp" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/updateStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/logo_blue"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="@string/update"
+            android:textColor="@color/white" />
+        <TextView
+    android:layout_width="288dp"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="15dp"
+    android:text="@string/statusnote"
+    android:textColor="@color/white"
+    android:textSize="18dp" />
+    </LinearLayout>
+
+    <!-- author info -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+
+        
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/author_name"
+            android:textColor="@color/white"
+            android:textSize="12dp" />
+
+      
+        -->
+    </LinearLayout>
+    
+    <EditText
+        android:id="@+id/updateholder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="0.78"
+        android:clickable="true"
+        android:editable="false"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:background="@color/title_gray"
+        android:gravity="top"
+        android:scrollbarSize="10px"
+        android:scrollbars="vertical" />
+
+</RelativeLayout>
